@@ -1,5 +1,5 @@
 [versions]
-ant-ver = "1.10.11"
+ant-ver = "1.10.17"
 assertj-ver = "3.24.2"
 avro-ver = "1.11.4"
 aircompressor = "0.27"
