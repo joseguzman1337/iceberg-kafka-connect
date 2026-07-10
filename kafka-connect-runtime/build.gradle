@@ -38,7 +38,7 @@ configurations {
     }
     all {
         resolutionStrategy.force "org.apache.commons:commons-lang3:3.18.0"
-        resolutionStrategy.force "org.codehaus.jettison:jettison:1.5.4"
+        resolutionStrategy.force "org.codehaus.jettison:jettison:1.5.6"
         resolutionStrategy.force "org.xerial.snappy:snappy-java:1.1.10.5"
         resolutionStrategy.force "org.apache.commons:commons-compress:1.26.0"
         resolutionStrategy.force "org.apache.hadoop.thirdparty:hadoop-shaded-guava:1.1.1-tabular"
