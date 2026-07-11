@@ -90,7 +90,7 @@ dependencies {
     implementation libs.libthrift
     implementation libs.ant
     implementation libs.parquet.avro
-    implementation (group: 'org.apache.iceberg', name: 'iceberg-data', version: '1.6.1') {
+    implementation (group: 'org.apache.iceberg', name: 'iceberg-data', version: '1.11.0') {
         exclude group: 'org.apache.avro', module: 'avro'
         exclude group: 'org.apache.parquet', module: 'avro'
     }
@@ -165,7 +165,7 @@ dependencies {
     testImplementation libs.libthrift
     testImplementation libs.ant
     testImplementation libs.parquet.avro
-    testImplementation (group: 'org.apache.iceberg', name: 'iceberg-data', version: '1.6.1') {
+    testImplementation (group: 'org.apache.iceberg', name: 'iceberg-data', version: '1.11.0') {
         exclude group: 'org.apache.avro', module: 'avro'
         exclude group: 'org.apache.parquet', module: 'avro'
     }
